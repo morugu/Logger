@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		02CA78BDCFC9FEFFC632936728563083 /* Pods-Logger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD323F83553CF59FD3F7116EF6160CD /* Pods-Logger_Tests-dummy.m */; };
 		0BE33F15476EACC8DF29DBA67D78FC60 /* Pods-Logger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9C2021EBF0F7ABD6C8306338CC8A87 /* Pods-Logger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2393C47381F73FC9CA62BAE0776F170F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FF53878827AB4CB28D0EF2205A52F3 /* ReplaceMe.swift */; };
+		2393C47381F73FC9CA62BAE0776F170F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FF53878827AB4CB28D0EF2205A52F3 /* Logger.swift */; };
 		B92186FA0E3F900AB1E617758B49785B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		BF37D30D13A51466917DAD343F03ADD9 /* Logger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C61DEE2C8B1EC15F90D23773F2CB3CED /* Logger-dummy.m */; };
 		CABB38B070692744B9E621446736BAFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -46,7 +46,7 @@
 		DCBFAA06223C052AC847D45640FE7F1E /* Pods-Logger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Logger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DD2333664AFFE05074E8AFD095DBCB2B /* Pods-Logger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Logger_Tests.modulemap"; sourceTree = "<group>"; };
 		DF2727403060AE761AE427D096E252AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1FF53878827AB4CB28D0EF2205A52F3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		E1FF53878827AB4CB28D0EF2205A52F3 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		E2B71A1A7391B8BD681906F8EA141343 /* Logger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logger-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,7 +175,7 @@
 		FC87F8A49ECA88F1B5C73233EA700857 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E1FF53878827AB4CB28D0EF2205A52F3 /* ReplaceMe.swift */,
+				E1FF53878827AB4CB28D0EF2205A52F3 /* Logger.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF37D30D13A51466917DAD343F03ADD9 /* Logger-dummy.m in Sources */,
-				2393C47381F73FC9CA62BAE0776F170F /* ReplaceMe.swift in Sources */,
+				2393C47381F73FC9CA62BAE0776F170F /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
